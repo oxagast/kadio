@@ -15,4 +15,4 @@ Install the zip file and cross fingers...
 
 ---=== Tested setups ===---
 
-1. Rasperry Pi 3+ running OSMC in Kodi 18.5 with a NooElec R802T USB Adapter.
+1. Rasperry Pi 3+ running OSMC in Kodi 18.5 with a NooElec R820T USB Adapter.

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.kadio" name="kadio" version="0.01r12" provider-name="oxagast">
+<addon id="script.kadio" name="kadio" version="0.01r48" provider-name="oxagast">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py">
-		<provides>executable</provides>
+		<provides>audio</provides>
 	</extension>
-	<extension point="xbmc.addon.metadata">
+	<extension point="xbmc.addon.audio">
 		<platform>all</platform>
 		<summary lang="en">SDR RTL Radio Tuner</summary>
 		<description lang="en">SDR Radio Tuner</description>

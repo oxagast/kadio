@@ -9,7 +9,7 @@ You MUST have a DVB-T tuner to make this work!
 3. Click Yes
 4. Station and Decimal - If the station is 103.3 type 103 in the first box, 3 in the second box, 
    hit ok and it should tune to the selected frequency and play sound.
-5. Click app again under Addons to and click No to stop radio playback.
+5. Go to the music tab and stop to hault playback.
 
 Install the zip file and cross fingers...
 

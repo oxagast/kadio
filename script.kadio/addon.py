@@ -4,7 +4,7 @@ import subprocess
 import sys
 import xbmc
 import time
-audiof = '/home/osmc/.kodi/addons/script.kadio/radio.wav'
+audiof = '~/.kodi/addons/script.kadio/radio.wav'
 subprocess.call("pkill -9 rtl_fm; pkill -9 sox; rm -f " + audiof, shell=True)
 addon = xbmcaddon.Addon()
 addonname = addon.getAddonInfo('name')

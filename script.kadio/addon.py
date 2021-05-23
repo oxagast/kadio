@@ -17,7 +17,7 @@ stopcastmsg = "Shutting down radio..."
 station = xbmcgui.Dialog().input("FM Base Station Number", type=xbmcgui.INPUT_NUMERIC)
 decimal = xbmcgui.Dialog().input("FM Decimal Station", type=xbmcgui.INPUT_NUMERIC)
 startcastmsg = startcastmsg + station + "." + decimal
-cmd = "sudo rtl_fm -g 50 -f " + station + "." + decimal + "M -M wbfm | sox -t raw -r 16k -e signed -b 16 -c 1  - " + audiof + " &"
+cmd = "sudo rtl_fm -f " + station + "." + decimal + "M -M wbfm | sox -t raw -r 16k -e signed -b 16 -c 1  - " + audiof + " &"
 subprocess.call('/usr/bin/watch -n 500 rm /tmp/radio.wav &', shell=True)
 
 subprocess.call(cmd, shell=True)

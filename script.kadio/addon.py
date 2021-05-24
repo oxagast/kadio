@@ -8,6 +8,7 @@ import os.path
 from os import path
 audiof = '/tmp/radio.wav'
 if path.exists('/usr/bin/rtl_fm') == False:
+    xbmcgui.Dialog().ok(addonname, "Installing...")
     subprocess.call("yes | sudo apt install rtl-sdr sox", shell=True)
 subprocess.call("sudo pkill -9 rtl_fm; sudo pkill -9 sox; sudo rm -f " + audiof, shell=True)
 addon = xbmcaddon.Addon()

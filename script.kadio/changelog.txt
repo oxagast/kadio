@@ -1,2 +1,4 @@
 0.01r12
 This is the intiail commit to the repository.  It kinda works.  Volume won't change with Kodi.
+1.1
+Now supports mp3 streaming that won't fill up the drive.  Should also auto install deps.

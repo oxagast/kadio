@@ -9,7 +9,7 @@ from os import path
 audiof = "/tmp/radio.mp3"
 if path.exists('/usr/bin/rtl_fm') == False:
     xbmcgui.Dialog().ok(addonname, "Installing...")
-    subprocess.call("yes | sudo apt install rtl-sdr sox", shell=True)
+    subprocess.call("yes | sudo apt install rtl-sdr lame", shell=True)
 addon = xbmcaddon.Addon()
 addonname = addon.getAddonInfo('name')
 startcastmsg = "Tuning to configured FM frequency "

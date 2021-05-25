@@ -3,7 +3,7 @@
 You MUST have a DVB-T tuner to make this work!
 
 ---=== Instructions ===---
-
+*** If you want screenshots and easy mode install, go to the wiki! ***
 - Boot with DVB-T card inserted.
 - On installations other than OSMC, use your package manager to install rtl-sdr (for the FM tuner dongle), and lame (for mp3 encoding) 
   package (dependancies).  I tried to automate this from within Kodi, but it will only work on OSMC.

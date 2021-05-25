@@ -18,6 +18,8 @@
 		<email>marshallwhittaker@gmail.com</email>
 		<assets>
 			<icon>icon.png</icon>
+                        <screenshot>screenshots/screenshot008.png</screenshot>
+ 
 		</assets>
 		<news>Updated the addon to use new addon.xml metadata</news>
 	</extension>

@@ -14,12 +14,11 @@
 		<language></language>
 		<forum></forum>
 		<source></source>
-		<website>oxagast.org</website>
-		<email>marshallwhittaker@gmail.com</email>
+		<website>https://github.com/oxagast/kadio</website>
+		<email>oxagast@gmail.com</email>
 		<assets>
 			<icon>icon.png</icon>
-                        <screenshot>screenshots/screenshot008.png</screenshot>
- 
+			<screenshot>resources/screenshot-01.png</screenshot>
 		</assets>
 		<news>Updated the addon to use new addon.xml metadata</news>
 	</extension>
